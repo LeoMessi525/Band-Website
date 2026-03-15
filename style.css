@@ -11,15 +11,21 @@ padding:20px;
 text-align:center;
 }
 
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
 nav a{
 color:white;
-margin:15px;
+margin:10px;
 text-decoration:none;
 font-weight:bold;
 }
 
 .hero{
-padding:80px;
+padding:60px 20px;
 text-align:center;
 background:#222;
 }
@@ -36,4 +42,23 @@ text-align:center;
 padding:20px;
 background:black;
 margin-top:40px;
+}
+
+/* MOBILE OPTIMIZATION */
+
+@media (max-width: 600px){
+
+.hero{
+padding:40px 15px;
+}
+
+nav a{
+display:block;
+margin:8px 0;
+}
+
+.member{
+margin:10px;
+}
+
 }
